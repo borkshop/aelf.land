@@ -41,7 +41,7 @@ Main.prototype.animate = function animate() {
     var breadth = windowSize.x / documentSize.x / scale * 500;
 
     //window.document.querySelector("#atmosphere").style.opacity = 0;
-    var day = Date.now() / 60000 * 2 % 1;
+    var day = Date.now() / 240000 * 2 % 1;
     var month = 0.5; // A childish simplification
     solar.y = (-Math.sin(2 * Math.PI * day) * 1000 + 1000).toFixed(2);
     lunar.y = (-Math.sin(2 * Math.PI * day + 2 * Math.PI * month) * 1000 + 1000).toFixed(2);
