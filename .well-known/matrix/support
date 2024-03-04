@@ -1,0 +1,9 @@
+{
+    "contacts": [
+        {
+            "email_address": "kris@cixar.com",
+            "matrix_id": "@kris:aelf.land"
+        }
+    ],
+    "support_page": "http://aelf.land/"
+}
